@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Teacher</string>
+    <string name="Subject">Select Subject</string>
+
+    <string-array name="sub_array">
+        <item>Bangla</item>
+        <item>English</item>
+        <item>Math</item>
+    </string-array>
+</resources>

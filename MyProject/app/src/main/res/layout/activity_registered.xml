@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#e7c7c7"
+    tools:context=".activities.RegisteredActivity">
+
+    <Button
+        android:id="@+id/bAttendance"
+        android:text="Attendance"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonshapeforregisteredactivity"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:onClick="openAttendance" />
+    <Button
+        android:id="@+id/bPoll"
+        android:text="Poll"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonshapeforregisteredactivity"
+        android:layout_below="@+id/bAttendance"
+        android:layout_alignStart="@+id/bAttendance"
+        android:layout_marginTop="50dp"
+        android:onClick="openPoll" />
+    <Button
+        android:id="@+id/bTest"
+        android:text="Test"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonshapeforregisteredactivity"
+        android:layout_below="@+id/bPoll"
+        android:layout_alignStart="@+id/bAttendance"
+        android:layout_marginTop="50dp"
+        android:onClick="openTest" />
+    <Button
+        android:id="@+id/bStatus"
+        android:text="Status"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonshapeforregisteredactivity"
+        android:layout_below="@+id/bTest"
+        android:layout_alignStart="@+id/bAttendance"
+        android:layout_marginTop="50dp"
+        android:onClick="openStatus" />
+</RelativeLayout>
